@@ -32,7 +32,7 @@ The following production code illustrates the business rule validation, secure d
 ' =====================================================================
 ' ACTION: VALIDATE CONSTRAINTS & ADD RECORD TO OPERATIONS DATABASE
 ' =====================================================================
-Private Sub Guna2Button9_Click(sender As Object, e As EventArgs) Handles Guna2Button9.Click
+Private Sub Save1_Click(sender As Object, e As EventArgs) Handles Save1.Click
     Try
         ' Securely open a connection using dynamic string configuration
         Using sqlConn As New MySqlConnection(\$"server={server};user id={username};password={password};database={database};")
